@@ -1,1 +1,15 @@
 # ComputerScience300
+What was the problem you were solving in the projects for this course?
+In these projects, I was tasked with designing and implementing an advising assistance program for the Computer Science department. The problem centered on how to store, organize, and retrieve course information efficiently. Specifically, I needed to analyze different data structures for their runtime and memory trade-offs, then implement a working program that could load course data, sort it alphanumerically, and display course details and prerequisites for advisors and students.
+
+How did you approach the problem?
+I approached the problem by first comparing multiple data structures—vectors, hash tables, and binary search trees—evaluating their strengths and weaknesses in terms of runtime complexity and memory usage. Understanding data structures was critical because the efficiency of searching, inserting, and sorting directly impacts how usable and scalable the program would be. After analysis, I selected the hash table as the primary structure for fast lookups, while still supporting sorting by extracting values into a vector.
+
+How did you overcome any roadblocks you encountered?
+One of the main challenges I faced was handling file input and ensuring the program could correctly parse and load course data. At first, issues with file paths and input formatting caused the program to fail to load data. I overcame this by carefully debugging input handling, adding error messages, and adjusting how I read file names and lines. Another roadblock was ensuring that sorting worked consistently across different structures, which I solved by implementing clear pseudocode first and then translating it into modular C++ functions.
+
+How has your work on this project expanded your approach to designing software and developing programs?
+This project reinforced the importance of planning before coding. Writing pseudocode and analyzing runtime helped me design a solution that was not only functional but also efficient. It showed me that software design is not just about making something work—it’s about making it work well under different conditions. I also learned to think about user interaction (through the menu system) and how to make the program intuitive for advisors who may not have a technical background.
+
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+I became more intentional about using clear function names, inline comments, and modular code design. By separating tasks into functions like LoadCoursesFromFile, PrintCourseList, and PrintCourseInfo, I made the program easier to maintain and extend. If requirements change in the future—such as adding new menu options or supporting different file formats—the structure of my code will make those updates easier. This project also emphasized the value of error handling and user feedback, which are essential for building reliable, professional-quality software.
